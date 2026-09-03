@@ -27,4 +27,4 @@ Both were the most useful weeks I had.
 
 CS50. Looking for people my age who build things.
 
-📫 gokulsai1004@gmail.com
+📫 gokulsai1004@gmail.com  ·  [Instagram](https://instagram.com/gokulsai_2010)
