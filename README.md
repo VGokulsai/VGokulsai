@@ -3,7 +3,7 @@
 15, Hyderabad. I build small tools, and none of them will tell you a check
 passed when it never ran.
 
-Thirteen public repos, all written on my own. Two of them are live:
+Twelve public repos, all written on my own. Two of them are live:
 **[the journal](https://gokulsai1004-create.github.io/journal/)** and
 **[Out Baby Out](https://gokulsai1004-create.github.io/outbabyout/)**.
 
