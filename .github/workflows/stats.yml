@@ -1,0 +1,51 @@
+# Keep the numbers on the profile true without anyone typing them.
+#
+# A number a human types is a number that can be wrong, and this one already
+# was: the profile claimed thirteen public repos when there were twelve, on a
+# page whose entire claim is that its figures are checkable.
+#
+# Runs daily and on every push. If GitHub cannot be read, stats.py exits 2 and
+# writes nothing, so the job fails loudly and the old number stays. Stale and
+# true beats fresh and wrong.
+
+name: Numbers
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stats
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: python stats.py
+
+      # Commit only when the line actually moved. A daily empty commit would
+      # bury the real history under noise.
+      - name: Commit if it changed
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "No change."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Numbers, from live data"
+          git push
