@@ -7,34 +7,34 @@ passed when it never ran.
 Thirteen public repos, all written on my own, of which twelve are projects and one is this profile.
 <!-- stats:end -->
 
-Two of them are live: **[the journal](https://gokulsai1004-create.github.io/journal/)**
-and **[Out Baby Out](https://gokulsai1004-create.github.io/outbabyout/)**.
+Two of them are live: **[the journal](https://vgokulsai.github.io/journal/)**
+and **[Out Baby Out](https://vgokulsai.github.io/outbabyout/)**.
 
 ### What I've shipped
 
-**[painpoint-finder](https://github.com/gokulsai1004-create/painpoint-finder)** —
+**[painpoint-finder](https://github.com/VGokulsai/painpoint-finder)** —
 describe what you want to build and it searches six public sources for people
 who actually have that problem, pulls out whoever already shipped it, and drafts
 an opener you edit and send yourself. It never sends anything. 126 tests.
 
-**[firstwrong](https://github.com/gokulsai1004-create/firstwrong)** — tells you
+**[firstwrong](https://github.com/VGokulsai/firstwrong)** — tells you
 the first line of your homework working that is wrong, and nothing else. No
 solution, no hint. The model has to solve it internally to compare, but only
 three values are ever read out of its reply, so the answer is unreachable in the
 code rather than politely withheld. 44 test cases: 25 of 25 on ordinary
 problems, 16 of 19 on a hard set written blind against it.
 
-**[synth](https://github.com/gokulsai1004-create/synth)** — turns a research
+**[synth](https://github.com/VGokulsai/synth)** — turns a research
 paper into a summary where every claim carries its page number, then checks that
 page. Not whether the claim is true, only whether it can be found where it says.
 Nothing in it can mark a claim false, so nothing does. One file, no
 dependencies, $0.0017 a call.
 
-**[apisurface](https://github.com/gokulsai1004-create/apisurface)** — what
+**[apisurface](https://github.com/VGokulsai/apisurface)** — what
 actually changed in an npm package's public API, read from the published code
 rather than from a changelog nobody wrote.
 
-**[Out Baby Out](https://gokulsai1004-create.github.io/outbabyout/)** —
+**[Out Baby Out](https://vgokulsai.github.io/outbabyout/)** —
 real-life tag with a revive, so nobody is ever out for good. The rules, a live
 match console that enforces them while you play, and a field map you can put
 anywhere. The rules exist in Python and in JavaScript, so twelve tests lift the
@@ -59,7 +59,7 @@ Fixed all five and left 124 tests behind, every one proved by breaking the code
 first and confirming the test failed. Two of the tests I wrote were passing
 without testing anything. A passing test means nothing until you have watched it
 fail. [I wrote the whole thing up
-here.](https://gokulsai1004-create.github.io/journal/e/the-bug-was-in-the-tool-i-built-to-find-it)
+here.](https://vgokulsai.github.io/journal/e/the-bug-was-in-the-tool-i-built-to-find-it)
 
 ### Eight ideas I killed before building them
 
@@ -80,6 +80,6 @@ ones did.
 
 Working through CS50. Building an agent that warns students about deadlines
 early enough to prepare, with someone my own age. Writing up what breaks, in
-[the journal](https://gokulsai1004-create.github.io/journal/).
+[the journal](https://vgokulsai.github.io/journal/).
 
 📫 gokulsai1004@gmail.com  ·  [Instagram](https://instagram.com/gokulsai_2010)

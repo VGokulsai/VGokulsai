@@ -21,7 +21,7 @@ import sys
 import urllib.error
 import urllib.request
 
-USER = "gokulsai1004-create"
+USER = "VGokulsai"
 README = os.path.join(os.path.dirname(os.path.abspath(__file__)), "README.md")
 START, END = "<!-- stats:start -->", "<!-- stats:end -->"
 
