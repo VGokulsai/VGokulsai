@@ -4,7 +4,7 @@
 passed when it never ran.
 
 <!-- stats:start -->
-Thirteen public repos, all written on my own, of which twelve are projects and one is this profile.
+Fourteen public repos, all written on my own, of which thirteen are projects and one is this profile.
 <!-- stats:end -->
 
 Two of them are live: **[the journal](https://vgokulsai.github.io/journal/)**
